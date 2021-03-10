@@ -1,0 +1,111 @@
+html
+{
+	background-image: url("https://media3.giphy.com/media/2tNvsKkc0qFdNhJmKk/giphy.gif?cid=ecf05e47ff4764c8a7ce0a1352d2150cca3b1c1d2220982a&rid=giphy.gif");
+	background-size: 100%;
+	font-family: Adobe, Adobe Clean;
+	border-style:;
+
+	
+}
+
+
+.players ul li
+{
+	display: inline;
+	border-style:;
+}
+
+.players
+{
+	margin-top: 30px;
+	border-style:;
+
+}
+
+body
+{
+	border-style: dotted;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	border-radius: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-family: Adobe, Adobe Clean;
+
+}
+
+
+.boxjog1
+{
+	height: 300px;
+	width: 200px;
+	float: left;
+	position: relative;
+	border-style:;
+
+
+}
+
+.boxjog2
+{
+	height: 300px;
+	width: 200px;
+	float: right;
+	position: relative;
+	border-style:;
+
+}
+
+.rodape
+{
+	margin-top: 20px;
+	border-style:;
+	position: bottom;
+}
+
+#btn_cadastrar
+{
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-style: bold;
+	border-radius: 30px;
+	height: 30px;
+	width: 200px;
+	color: #FFFFFF;
+	background-color: #F26A4B;
+	border-style: dotted;
+}
+
+
+.btncomparacao
+{
+	border-radius: 30px;
+	width: 200px;
+	height: 30px;
+	color: #F26A4B
+	background-color: #FFFFFF;
+	border-style:dotted;
+}
+
+.btnreiniciar
+{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	color: #FFFFFF;
+	background-color: #F26A4B;
+	border-style: double;
+}
+
+
+
+
+
+
+
+
+

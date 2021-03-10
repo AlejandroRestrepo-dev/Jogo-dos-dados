@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="pt-br"><center>
+	<head>
+		<title>Jogo de Dados</title>
+		<meta charset="utf-8">
+		  <link rel="stylesheet" href="jogodados.css">
+	</head>
+		<header>
+			<div><img class="gradient-desktop" src=""></div>
+		</header>
+		
+
+		<body class="container">
+			<div id="parte1">
+			<h1>JOGO DOS DADOS</h1>
+			
+			<h2>Por favor faça o cadastro dos jogadores</h2>
+		    
+		    
+
+		    <div class="players">
+		    	<ul>
+			    	<h3><li>Jogador 1</li> <input id="nome_id1" type="text" placeholder="Digite o nome"/></h3>
+			    	<h3><li>Jogador 2</li> <input id="nome_id2" type="text" placeholder="Digite o nome"/></h3>
+		    	</ul>
+		    </div>
+
+		    <button id="btn_cadastrar" onclick="cadastrarjogadores()">CADASTRAR JOGADORES</button>
+		    </div> 
+
+		    <div id="parte2" style="display: none">
+		    	<h2>JOGO INICIADO - BOA SORTE!!</h2>
+		    <div class="container">
+				<div class="boxjog1">
+					<h3><P id="jogador1">Jogador 1:</P></h3>
+					<h4><p id="ptsjog1"></p></h4>
+
+					<div class="box">
+						<img id="Img1" src="newdado0.png" width="150px" height="150px"/>
+					</div><br>
+
+					
+				</div>
+
+
+				<div class="boxjog2">
+					<h3><p id="jogador2">Jogador 2:</p></h3>
+					<h4><p id="ptsjog2"></p></h4>
+					<div class="box">
+						<img id="Img2" src="newdado0.png" width="150px" height="150px"/>
+					</div><br>
+			</div>
+				<div class="gif"><img src="https://media0.giphy.com/media/SGWE3FJop7mNHGL7nY/source.gif" width="350px" height="350px"></div>	
+			
+			<div class="rodape">
+
+				<h2><p id="resultado"></h2></p>
+				<div>
+					<button class="btncomparacao" type="button" onclick="comparacao();"/>SORTEAR AGORA</button>
+				</div>
+
+			</div>
+
+			<br>
+		<footer>
+		<div><button class="btnreiniciar" onclick="reset()"><h5>Reiniciar</h5></button></div>
+		</div>
+		<img>
+		
+		
+		</footer>
+		<script src="jogodados.js"></script>
+		</body></center>
+</html>	
